@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+:root{
+    --main-padding:10px;
+}
+body{
+    scroll-behavior: smooth;
+}
+.control{
+    margin: 50px auto;
+    width: 400px;
+}
+.control .container{
+    text-align: center;
+    padding: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+}
+.control form{
+    padding: var(--main-padding);
+}
+.control form h2{
+    padding: 0px 10px 10px 10px;
+    font-weight: normal;
+}
+.control form img{
+}
+.control input[type = 'text']{
+    width: 300px;
+    margin: 5px ;
+    padding: 8px;
+    outline: none;
+}
+.control input[type = 'text']::placeholder{
+    color:#c7c4c4;
+    font-style: italic;
+}
+.control .fileButton{
+    color: white;
+    background-color: #039BE5;
+    font-size: 14px;
+    padding: 10px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+}
+.control input[type='submit']{
+    background: #43A047;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 1px;
+    width: 130px;
+    margin: 5px 0px 5px 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.control div a{
+    font-family: normal;
+    color: red;
+    cursor: pointer;
+    font-stretch: extra-condensed;
+}
+.error{
+
+}
+@media (max-width:400px) {
+    .control{
+        width: 350px;
+        padding: 0;
+    }
+}

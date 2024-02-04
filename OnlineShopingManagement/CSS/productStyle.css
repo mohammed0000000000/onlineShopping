@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color :black;
+    padding : 10px;
+}
+header a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.fa-cart-shopping{
+    font-weight: 900;
+    font-size: 25px;
+    color: white !important;
+}
+header span{
+    margin: 5px 10px;
+    font-size: 30px;
+    margin-left: 35px;
+    color: white;
+}
+/* ------------------------------------------- */
+.title{
+    margin: 20px;
+}
+.title h1{
+    letter-spacing: 10px;
+}
+@media (min-width:768px) {
+    .container{
+        width: 750px;
+    }
+}
+/* medium */
+@media (min-width:992px) {
+    .container{
+        width: 970px;
+    }
+}
+@media (min-width:1200px) {
+    .container{
+        width: 1170px;
+    }
+}
+.container{
+    padding: 20px;
+    display: flex;
+    margin: auto;
+    /* justify-content: space-between; */
+}
+.container .item{
+    width: 250px;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+}
+img{
+    width: 100%;
+    height: 200px;
+}
+h2{
+    padding: 5px;
+    margin:5px;
+}
+p{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+button{
+    width: 45%;
+    cursor: pointer;
+}
+.edit{
+    border-radius: 5px;
+    height: 35px;
+    color: white;
+    background: #388E3C;
+    outline: none;
+    border: none;
+    margin: 10px 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.remove{
+    border-radius: 5px;
+    height: 35px;
+    color: white;
+    background: #E53935;
+    outline: none;
+    border: none;
+    margin: 10px 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@media (max-width:767px) {
+    .container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
